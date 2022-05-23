@@ -95,7 +95,7 @@ input[type="text"]:focus {
   vertical-align: middle;
 }
 
-.todos__item > input[type="checkbox"] {
+.checkbox {
   margin: 0 10px;
 }
 
