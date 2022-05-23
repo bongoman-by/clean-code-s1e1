@@ -82,7 +82,7 @@ var editTask = function () {
   var editInput = listItem.querySelector(".input");
   var label = listItem.querySelector(".label");
   var editBtn = listItem.querySelector(".btn_edit");
-  var containsClass = listItem.classList.contains("editMode");
+  var containsClass = listItem.classList.contains("todos__item_edit");
   //If class of the parent is .editmode
   if (containsClass) {
     //switch to .editmode
@@ -95,7 +95,7 @@ var editTask = function () {
   }
 
   //toggle .editmode on the parent.
-  listItem.classList.toggle("editMode");
+  listItem.classList.toggle("todos__item_edit");
 };
 
 //Delete task.

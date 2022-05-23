@@ -121,12 +121,12 @@ body {
   color: #888;
 }
 
-.todos__item.editMode .input {
+.todos__item_edit .input {
   display: inline-block;
   width: 224px;
 }
 
-.todos__item.editMode .label {
+.todos__item_edit .label {
   display: none;
 }
 
