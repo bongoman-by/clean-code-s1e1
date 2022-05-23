@@ -39,13 +39,15 @@ body {
   text-transform: uppercase;
 }
 
-.task {
+.input,
+.label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-input,
+.checkbox,
+.input,
 .btn {
   outline: none;
 }
