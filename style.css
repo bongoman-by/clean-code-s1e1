@@ -82,6 +82,10 @@ body {
   display: none;
 }
 
+#new-task {
+  width: 318px;
+}
+
 .input:focus {
   color: #333;
 }
